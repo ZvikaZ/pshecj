@@ -1,0 +1,3 @@
+install:
+- FILE="-Dfile=jars/pshecj-1.jar"
+- mvn install:install-file $FILE -DgroupId=com.github.ZvikaZ -DartifactId=pshecj -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
